@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Service Worker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='js/app.js'></script>
+</head>
+<body>
+    <img src="./public/img/perro.jpg"/>
+    text
+    <input type="text"/> <br>
+    checkbox
+    <input type="checkbox"/><br>
+    date
+    <input type="date"/><br>
+    file
+    <input type="file"/><br>
+    select
+
+    <select>
+        <option value="1">papitas</option>
+        <option value="2">gansito</option>
+    </select>
+
+    <div>
+        <div>
+            <p>Insertar</p>
+            <button onclick="insertar();">Insertar</button>
+        </div>
+        <div>
+            <p>Eliminar</p>
+            <button onclick="eliminar()">Eliminar</button>
+        </div>
+        <div>
+            <p>Buscar</p>
+            <button onclick="buscar()">Buscar</button>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <p>Nombre</p>
+            <input id="name" name="name" placeholder="Ingrese su nombre" />
+        </div>
+        <div>
+            <p>Trabajo</p>
+            <input id="job" name="job" placeholder="Ingrese su trabajo" />
+        </div>
+        <button id="registerBtn">
+            <p>Registrarse</p>
+        </button>
+    
+        <div id="response"></div>
+    
+        <div>
+            <button id="deleteAllBtn" name="deleteAllBtn">
+                <p>Eliminar registros</p>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
